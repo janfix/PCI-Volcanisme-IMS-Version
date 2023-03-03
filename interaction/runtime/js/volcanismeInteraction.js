@@ -86,7 +86,13 @@ define([
         getResponse: function() {
 
             var $container = $(this.dom),
-                value = "exp.p.fluide : " + $container.find(".clickpfluide").text() + " -exp.p.compacte : " + $container.find(".clickpcompact").text() + " -anim cachet : " + $container.find(".clickcachet").text() + " -Retour Init : " + $container.find(".clickreinit").text();
+                
+            value= '{"exp_pfluide" : '+ $container.find(".clickpfluide").text()+
+                ',"exp_pcompacte":' + $container.find(".clickpcompact").text()+
+                ',"animCachet":' + $container.find(".clickcachet").text() +
+                ',"retourInit":' + $container.find(".clickreinit").text() +           
+            '}';
+            
 
             return { base: { string: value } };
         },
