@@ -1,4 +1,4 @@
-# PCI Volcasnisme IMS Version
+# PCI Volcanisme IMS Version
 
 <img src="https://www.wiquid.fr/projects/depp/PCI-icons/volca.svg">
 
